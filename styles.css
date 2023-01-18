@@ -1,0 +1,164 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Futura', sans-serif;
+  background: #081016 no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+	background: url(header.PNG) no-repeat center center;
+	  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  }
+
+h1{
+	color: #C63600;
+	text-align: center;
+	border: 3px solid rgba(235, 85, 0, 0.5);
+	cursor: pointer;
+	border: 3px;
+	padding: 5px 20px;
+	margin: 20px 20px;
+}
+
+h5{
+	color: whitesmoke;
+	text-align: center;
+	border: 3px;
+	padding: 5px 20px;
+	margin: 20px 20px;
+}
+
+h2 {
+	color: darkturquoise;
+	text-align: center;
+	border: 3px;
+	padding: 5px 20px;
+	margin: 20px 20px;
+}
+
+h3{
+	color: rgba(0, 154, 111, 1.0);
+	text-align: center;
+	border: 3px;
+	padding: 5px 20px;
+	margin: 20px 20px;
+}
+
+h4{
+	text-align: center;
+	color: skyblue;
+	border: 3px;
+	padding: 5px 20px;
+	margin: 20px 20px;
+}
+
+p{
+	color: slategrey;
+	border: 3px;
+	padding: 5px 20px;
+	margin: 20px 20px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	border: 3px;
+	padding: 5px 20px;
+	margin: 20px 20px;
+}
+
+a{
+	text-align: center;
+	color: #CB4F09;
+}
+
+.nft1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.teampic{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+
+#div1{
+	border: 3px solid rgba(67, 17, 85, 0.3);
+}
+
+img{
+	align-items: center;
+	align-content: center;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+*{
+	text-align: center;
+	font-family: "Google Product Sans",Futura;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {  
+    background-color: orangered;  
+    border-color: orangered;  
+    --bs-btn-hover-bg: #C63600; 
+    --bs-btn-hover-border-color: #C63600;
+}
+
+hr {
+    margin: 10px auto;
+    color: orangered;
+    border: 3px solid orangered;
+    max-width: 10px;
+    opacity: 100%;
+    border-radius: 100px;
+}
+
+.buffer {
+  height: 0rem;
+}
+
+.buffer1 {
+  height: 20rem;
+}
+
+.buffer2 {
+  height: 5rem;
+}
+
+.card {
+	opacity: 40%;
+	margin: -2;
+}
+
+.navbar-dark {
+	background-color: black;
+}
+
+.bg-dark {
+	color: black;
+}
